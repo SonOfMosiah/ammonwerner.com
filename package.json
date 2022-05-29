@@ -1,10 +1,8 @@
 {
     "name": "ammonwerner.com",
     "version": "1.0.0",
-    "engines": {
-        "node": "18.2.0",
-        "npm": "8.9.0"
-    },
+    "description": "Portfolio site for Ammon Werner",
+    "main": "index.js",
     "scripts": {
         "dev": "nodemon server.js",
         "start": "react-scripts start",
@@ -12,8 +10,21 @@
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
-    "private": true,
+    "keywords": [
+        "blockchain",
+        "cryptocurrency",
+        "react",
+        "ethersjs",
+        "web3",
+        "ethereum",
+        "heroku"
+      ],
+    "author": "Ammon Werner",
     "license": "MIT",
+    "engines": {
+        "node": "18.2.0",
+        "npm": "8.9.0"
+    },
     "dependencies": {
         "@alch/alchemy-web3": "^1.4.2",
         "@testing-library/jest-dom": "^5.16.2",
