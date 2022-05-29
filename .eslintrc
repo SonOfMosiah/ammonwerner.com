@@ -1,0 +1,38 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": [
+      "standard",
+      "standard-react",
+      "next",
+      "prettier"
+  ],
+  "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+  },
+  "rules": {
+      "no-console": 0,
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "react/prop-types": 0,
+      "import/extensions": 0,
+      "no-tabs": [2, {"allowIndentationTabs": true}],
+      "no-unused-vars": "off",
+      "import/no-duplicates": "off",
+      "react/self-closing-comp": "off",
+      "no-undef": "off",
+      "no-empty-pattern": "off",
+      "spaced-comment": "off",
+      "react/no-unescaped-entities": "off",
+      "prefer-const": "off",
+      "no-unneeded-ternary": "off"
+  },
+  "plugins": [
+    "babel",
+    "flow-vars"
+  ],
+  "ecmaFeatures": {
+    "modules": true,
+    "jsx": true
+  }
+}
