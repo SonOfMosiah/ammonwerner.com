@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+const http = require("http")
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -29,7 +30,7 @@ function App() {
   }, []);
 
 const hostname = '127.0.0.1';
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5025;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;

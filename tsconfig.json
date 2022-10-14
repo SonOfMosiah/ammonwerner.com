@@ -24,7 +24,7 @@
     "**/*.ts",
     "**/*.tsx",
     "components/modal/selectWallet.js"
-  ],
+, "src/components/Header.js"  ],
   "exclude": [
     "node_modules"
   ]
